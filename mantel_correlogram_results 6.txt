@@ -1,0 +1,18 @@
+# Number of entries refers to the number of rows (or cols) retained in each
+# distance matrix after filtering the distance matrices to include only those
+# samples that were in both distance matrices. p-value contains the correct
+# number of significant digits.
+# Distance classes with values of None were in the second half of the distance
+# classes and not all samples could be included in the distance class, so
+# calculations were not performed.
+DM1	DM2	Number of entries	Number of permutations	Class index	Number of distances	Mantel r statistic	p-value	p-value (Bonferroni corrected)	Tail type
+cdoutgreengenes7/bdiv_even694/weighted_unifrac_dm.txt	depth	29	999	0.65	280	0.089833209283	0.239	1.000	greater
+				1.95	144	-0.0206813594999	0.353	1.000	less
+				3.25	60	0.0497922743627	0.260	1.000	greater
+				4.55	138	0.0567676315803	0.251	1.000	greater
+				5.85	82	-0.0899607272892	0.133	0.665	less
+				7.15	56	None	None	None	None
+				8.45	24	None	None	None	None
+				9.75	4	None	None	None	None
+				11.05	8	None	None	None	None
+				12.35	16	None	None	None	None
